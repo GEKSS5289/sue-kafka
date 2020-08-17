@@ -6,5 +6,7 @@ package com.sue.kafka.api.topic;
  */
 
 public interface Const {
-    String TOPIC_QUICKSTART = "topicquickstart";
+    String TOPIC_QUICKSTART = "topic-quickstart";
+    String TOPIC_INTERCEPTOR = "topic-interceptor";
+    String TOPIC_SERIAL="topic-serial";
 }
