@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sue-springboot-kafka" />
+        <module name="sue-springboot-kafka-producer" />
+        <module name="sue-springboot-kafka-consumer" />
         <module name="sue-kafka" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sue-kafka" options="-parameters" />
+      <module name="sue-springboot-kafka-consumer" options="" />
     </option>
   </component>
 </project>

@@ -90,6 +90,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sue-springboot-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/sue-springboot-kafka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/sue-springboot-kafka-producer/pom.xml" />
       </list>
     </option>
   </component>
