@@ -10,4 +10,5 @@ public interface Const {
     String TOPIC_INTERCEPTOR = "topic-interceptor";
     String TOPIC_SERIAL="topic-serial";
     String TOPIC_PARTITION="topic-partition";
+    String TOPIC_CORE = "topic-core";
 }
